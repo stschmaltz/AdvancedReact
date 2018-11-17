@@ -16,7 +16,7 @@ class Item extends Component {
         <Title>
           <Link
             href={{
-              pathName: '/item',
+              pathname: '/item',
               query: { id: item.id },
             }}
           >
@@ -32,7 +32,7 @@ class Item extends Component {
               query: { id: item.id },
             }}
           >
-            <a>Edit ✏</a>
+            <a>Edit ✏️</a>
           </Link>
           <button>Add To Cart</button>
           <DeleteItem id={item.id}>Delete Item</DeleteItem>
