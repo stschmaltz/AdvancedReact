@@ -25,3 +25,4 @@ User.propTypes = {
 
 export default User;
 export { CURRENT_USER_QUERY };
+ 
