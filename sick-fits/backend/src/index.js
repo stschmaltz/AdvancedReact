@@ -18,7 +18,6 @@ server.express.use((req, res, next) => {
     // put the userId on the the req for furture requests access
     req.userId = userId;
   }
-  console.log(token);
   next();
 });
 
